@@ -3,6 +3,8 @@ import Banner from "./components/Banner";
 import Cart from "./components/Cart";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -12,8 +14,12 @@ function App() {
     if (!isExist) {
       setCart([...cart, product]);
     }
+    else{
+      toast.error('You cant add selected item again')
+    }
   };
   const handleRemoveCart = (product) => {
+    toast.success('Added to Cooking')
     const remaining = cart.filter((p) => p.recipe_id !== product.recipe_id);
     setCart(remaining);
     setCook([...cook, product]);

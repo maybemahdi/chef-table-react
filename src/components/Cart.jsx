@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+
 const Cart = ({ cart, handleRemoveCart, cook }) => {
   return (
     <div>
@@ -100,11 +101,17 @@ const Cart = ({ cart, handleRemoveCart, cook }) => {
             <div className="flex justify-end gap-5 my-2 text-base">
               <div>
                 <p>Total Time = </p>
-                <p>45 minutes</p>
+                <p>
+                  {cook.reduce((acc, value) => acc + value.preparing_time, 0)}{" "}
+                  minutes
+                </p>
               </div>
               <div>
-                <p>Total Calories = </p>
-                <p>1050 calories</p>
+                <p>Total Calories =</p>
+                <p>
+                  {cook.reduce((acc, value) => acc + value.calories, 0)}{" "}
+                  calories
+                </p>
               </div>
             </div>
           </div>
