@@ -11,7 +11,8 @@ function App() {
   const [cook, setCook] = useState([]);
   const handleCart = (product) => {
     const isExist = cart.find((pd) => pd.recipe_id === product.recipe_id);
-    if (!isExist) {
+    const isExistTwo = cook.find((pd) => pd.recipe_id === product.recipe_id);
+    if (!isExist && !isExistTwo) {
       setCart([...cart, product]);
     }
     else{

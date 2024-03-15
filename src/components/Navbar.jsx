@@ -61,11 +61,9 @@ const Navbar = () => {
             <img src="https://cdn.hugeicons.com/icons/search-01-stroke-rounded.svg" alt="search-01" width="24" height="24" />
             <input className="bg-gray-200 w-2/3 focus:outline-none" type="text" placeholder="Search" />
           </div>
-          <img
-            className="bg-green-500 p-1 rounded-full"
-            src="/public/Frame (6).svg"
-            alt=""
-          />
+          <div className="bg-green-500 p-3 rounded-full">
+          <img className="" src="https://cdn.hugeicons.com/icons/user-stroke-rounded.svg" alt="user" width="24" height="24" />
+          </div>
         </div>
       </div>
     </div>
