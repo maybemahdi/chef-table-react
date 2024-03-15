@@ -1,0 +1,68 @@
+[
+  {
+    "recipe_image": "https://images.unsplash.com/photo-1514536958296-436f46226e74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "recipe_id": 1,
+    "recipe_name": "Chicken Teriyaki",
+    "short_description": "A savory Japanese dish featuring tender chicken glazed in soy sauce and served with rice.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf"],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_image": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with rich tomato sauce, ground beef, and herbs, served spaghetti noodles.",
+    "ingredients": [
+      "400 g spaghetti",
+      "300 g ground beef",
+      "500 ml tomato sauce"
+    ],
+    "preparing_time": 45,
+    "calories": 450
+  },
+  {
+    "recipe_image": "https://images.unsplash.com/photo-1512852939750-1305098529bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "recipe_id": 3,
+    "recipe_name": "Caesar Salad",
+    "short_description": "Refreshing salad featuring crisp romaine lettuce, homemade croutons, tangy Caesar dressing.",
+    "ingredients": [
+      "1 head romaine lettuce",
+      "100 g croutons",
+      "30 g Parmesan cheese"
+    ],
+    "preparing_time": 20,
+    "calories": 280
+  },
+  {
+    "recipe_image": "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "recipe_id": 4,
+    "recipe_name": "Vegetable Curry",
+    "short_description": "Aromatic curry dish filled with colorful vegetables, simmered in a coconut milk and curry spice blend.",
+    "ingredients": [
+      "300 g mixed vegetables",
+      "100 g curry paste",
+      "200 g rice"
+    ],
+    "preparing_time": 40,
+    "calories": 380
+  },
+  {
+    "recipe_image": "https://plus.unsplash.com/premium_photo-1695658519542-2cf6485d7610?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "recipe_id": 5,
+    "recipe_name": "Grilled Salmon",
+    "short_description": "Healthy and delicious salmon fillets seasoned with herbs, lemon, and garlic, then grilled to perfection.",
+    "ingredients": ["4 salmon fillets", "2 lemons", "4 cloves garlic"],
+    "preparing_time": 25,
+    "calories": 320 
+  },
+  {
+    "recipe_image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Cake",
+    "short_description": "Indulgent dessert featuring moist chocolate cake layers, rich chocolate frosting.",
+    "ingredients": ["200 g flour", "150 g sugar", "200 g butter"],
+    "preparing_time": 50,
+    "calories": 400
+  }
+]
