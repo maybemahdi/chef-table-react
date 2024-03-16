@@ -29,7 +29,7 @@ function App() {
     <div className="w-[90%] mx-auto">
       <Navbar></Navbar>
       <Banner></Banner>
-      <div className="lg:w-[80%] w-full mx-auto flex flex-col item-center text-center my-10">
+      <div className="lg:w-[80%] w-full mx-auto flex flex-col item-center text-center my-12">
         <h3 className="font-semibold text-[#150B2B] text-[40px] mb-3">
           Our Recipes
         </h3>
